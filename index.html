@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shah Garden | Professional Landscaping & Gardening</title>
+  <meta name="description" content="Expert landscaping, garden maintenance, and outdoor design services in Islamabad and Rawalpindi.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">
+          <img src="assets/logo.png" alt="Shah-Garden Logo" class="logo-img">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#clients">Our Clients</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#visit">Visit Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Crafting Your Perfect Green Sanctuary</h1>
+          <p>Expert landscaping and garden design tailored to your lifestyle. We bring nature's beauty to your doorstep with precision and care.</p>
+          <div class="cta-group">
+            <a href="#services" class="btn btn-primary">Our Services</a>
+            <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=1200&q=80" alt="Beautiful lush garden landscape with dense green foliage" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+          <p>Shah Garden is a premier landscaping and gardening service provider. With years of experience in creating breathtaking outdoor spaces, we specialize in both residential and commercial projects. Our team is dedicated to delivering high-quality craftsmanship and sustainable gardening solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Garden Design</h3>
+            <p>Custom landscape blueprints tailored to your space and preferences.</p>
+          </article>
+          <article class="service-card">
+            <h3>Maintenance</h3>
+            <p>Regular pruning, fertilization, and lawn care to keep your garden thriving.</p>
+          </article>
+          <article class="service-card">
+            <h3>Irrigation Systems</h3>
+            <p>Smart watering solutions for efficient and healthy plant growth.</p>
+          </article>
+          <article class="service-card">
+            <h3>Hardscaping</h3>
+            <p>Patios, walkways, and decorative stone work for structural beauty.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients">
+      <div class="container">
+        <h2 class="section-title">Our Clients</h2>
+        <div class="clients-grid">
+          <div class="client-logo">
+            <img src="https://kissanshop.com/wp-content/uploads/2022/11/FMC-logo.webp" alt="FMC United Pvt Ltd" class="client-img">
+            <p>FMC United Pvt Ltd</p>
+          </div>
+          <div class="client-logo">
+            <img src="https://jascrm.jaffer.com/jascrm/themes/images/logo.png" alt="Jaffer Group" class="client-img">
+            <p>Jaffer Group</p>
+          </div>
+          <div class="client-logo">
+            <img src="https://download.logo.wine/logo/Bayer/Bayer-Logo.wine.png" alt="Bayer" class="client-img">
+            <p>Bayer</p>
+          </div>
+          <div class="client-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6HbF40qQui_avy_IMx26p48zVX0IQ4TjCwA&s" alt="BASF" class="client-img">
+            <p>BASF (Germany)</p>
+          </div>
+          <div class="client-logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAX8AAACECAMAAABPuNs7AAAAkFBMVEX////tHCTsAADtGSHtFR7/+/vtEBruJCzsBxXxZGj0honvPELsABDxYmbsAAnwR0z84OH72tr719j+9fXxXWH3qav2pKb6x8j+9/fzf4L95ufya2/zeHv70NH5wMHzfoH4t7n2nJ/+7u/3sLL0jI/1lJbwUVbuMznuLDPvQkf6y8zwTVLuIyvycHTuMDf3ra9MVwjxAAAOsUlEQVR4nO1d54KqOhCWCSAqxsZasGPX9fj+b3cICiYQkFAEXL8/955Vit8kk2mZ1GrVhbVqt9bdot/ij2KwMjSsIh2+Ing/lFUDY1VyIOvQWZtFv9EfwmDRAJd8TwSt4VcE78B4MZWBId8VAe58RZA3RlebfBRk/y4CDPsfq+hX/Fgo5xmEk3+HiuFy+4ogeyjn5S9okdx7s0Dfb74iyBTzyRG06JHPzgJsbAZFv/SnoN+URcj3FJGx+s6C1OhthUY+IwJQjdV3FqRAd9dKSr4DZItgulCK/hnVRHf3D3Q5OfmeCGC6GBf9Y6oGc93CeoqRz0AFeTr6iiA2zHUng5FPw54F0nVU9O+qBMxh1uR7ItBn56J/Xclh/XQwzoH8hwg0kGbn73IcgsHNyJF8TwTH5bzoX1pCWBvDF1POUQRS8ysCGoOVob+HfE8Ev81+0b+6JFBWDZUX0M9dBIdtr+jfXjiUxfVlTDkvyPZa8KdFMF5ctfePfBpIh+Puj4pgNPstauT7RHDa/bkCivNETRVZyxSyLYI/VMOizCcJAvr5ghRQ/I0alnnzX9nIv8MWwWX44Rmb/rZeTvLvsEWw/9walt7ut8zk3yFj6HxiDQtJZWUW0M8XMsb7z6ph6a5bucSUcwPJ3n9KDYs5PFSL/Ds+o4BisNrjCpJ/BymgqHIZ0XjVgGLjC2mB7FnQrmYNS7BIvKKooiJSFlOp2iOfga2I2qvqFFCMrmoZImtZAqmAK1HJpZxnmCJf1uJBlcsvL6eSq9xrwXzGxhdkY9uMhev+qOede88ApIyotMV080kguIM38S83f1pQfgmQktJZCSu5+k1eQF+EfxvnC5RfDZHUMZSrjKi/PfAja6i1n/yIZDY2cjWsJg3qZRFBbxtRJI5UDcNW4G7WSX8rkYlBaliKr+Tq7eovgztIFVqxpvAeAtPDFoE+KVAE5jpWTBnVxSbqREQAqNgFg9QzFlPJZa4vMcOaovzXZjEEINuLoA0dPf5bnL9nv8G/d4vAHJ7ix5SF+a9No9cAsqelM1n03aDMoD/aNYrMrdkiQNu3icD6uQjVKYvzr7Qibo+wdOWEJJV5s+73H5DMQez39q5QKYS+1ZvqGQc3AwQdVXH+a91QDYTgeAuLASirEyMBdOhwEPu9L87XL5e9DcMw2u1GY9qImGOkFU6+lVzWZp8gpszy3+Mh8NbDEAHgerRHt2hRHhxe8b5SpyhUgQFNLjrwLh5Ha0aZ1DPmJIJ7vyNR8gP8H4EDXG/6Iuwn3hyT8fblVBpq3jtyvW+F4l9tm10K5j9KAHz+rZfeST4NoZRVQ08aU2b556t2pKs35oFzzgTQ6nEU7NOD04ccaVkU/7BgP1tT7IaM/zgtKLJuCDVeTNPkEePwTxR7g3noNPBAfR9zHbm6stPh1xcqG2FKySDZd6GJ6RdCnQm70tjLS1zXJLt6xrB+R/ERj39bXRj0c3v+n4obtbh4enBqnf2kTY9fbeK/0KB/KJJhTX+4EwvPZtIQajRDqVNZcfmXoEk/es8KXTNq8bH0BjJmVdaQHuEQiB2sWKEzXxiIx0VIQ6gUJaXnJc7CqYnNvwS0tmC5kLnqOBTeONcYmdYs6qZIClymMOEUuUV/tksUGCQNoZLUMyrzpZSRRxmff/RLvwHNP9L4M1kZh6wJx8djkM7+nZpV+i542ZLWT3hIfTL+TUoGaQglWM8o2O8oGvH5l+CH+maDUkAw9L9iTVlsG5fW8dBpNznlIZ79BCvm78PnKAaOlciYXZi+7SZNWFaoIVR/m9XIv0OAf2bG/zx1tdwJvOQMQFNlGSGZpBiMhf8Ls8dIVtl146mAgvckoL2DKf3Bv5S50ZglpSn6HYVBgH8JqCgWZQGBr3GD1fD1glPh5It/me5AB1ZzeY4d/qlxQLkAzGq0yCAroWI9uiFUPkXiIvzrlMU3kNxXkS/se87VoBuk+lWUOwF8at6zgIA7GJ8uAFLpv1+yyYuqoDVCKrm6u5zqlEX4V/fUVw8u/z4/dcTP0vvynO70QawL4M4Ltc1l4blAM3LrZ5aUQ9wyIjPHCn0R/tE/6quuN4TqzIjphRVJ+GaAq2mA9YEv9z/71mUPntmL6eU56I2ngT0LaBHET2UlghD/iNIK3hLKLITKMfQOwKwBW513uauAIMRwHT8UEKPzzKxz0vYsQNf7rF4dRAP6os8S4F/SqdVy++CfjSPvcOjF6on+4tMEZWb73QLSrnz6Pakz86MZq/OrGEhJ6ZXMgl5Y9U5WDxLhn571ri0CdAxhLEW8KmMnWc84KEOwo+H9FtUTZ0c+CFE6b5BLdpmU0jXurzFf5tiCJPX4Z1TFKkoVaDOaSVdSMjMtHBcMHcPof1ymLekrwqdcYpA1gG4K6DQiyf4xkqD+l4L6nzVgZlGqgAlg1Druo9h1gSggLaImzAn0MJdkPvxtZyxoho5X+fT/EuGfCbM9TEE2E3KI9t9oo77tjid2WhC5MCqtNmICoV3se4/IKScO2XbDNnwfgPS/y9wSErL/aVvleB92bBgyeqMAM2y9qYJkZgUeYp9GMpbMP20LlQm97TPUCyQrEBkP7a6zXo1F+KdTttZj2rPjP1oXMLb+1eMNmEywqWMmsdIFzBijNyzpFEW8VGgyOI1WXqdkMjaIhPinfvfZdWAZpV6PP/49/eOPtXXY2MNMY52xMVbpXFs7m+GPNIHylDnJe2XyWCH+Vdoq33r2I/1m0cqAMfU7z0exseYho35sO5UJe5AEMjWNzCyMH5v8ulh5lrKYZrR/VCT+T09Ob6VlRmtkGopdKqjaXNbeMZnQJ7kjK58RHXpL73vZ5KtJOl5mZBDF5x/TLD1DXoyvFMjL02BiZnStDvoNrZ1wco46a49Stxmn1P6k9XTyvsfWzyl1H/LY/GtMmPk57lj/9RKVQKbnD7Nu+kt9nnDSPJxc8APpfC/nAIJ0G/a665QZmbj86wdaeVM+P5vCGoUPSJ2x8xlNpYaWT9zVXKh8jsl/embNC/rNNCKIx78MbECeYg8h5kfMwlYA9cAoGbaEUQ+x+x6JrbB0QGLfSyb5xsx2Cyvn5AYRy/9BU4PQdGitmAdatJ3vi9Wf+CuirDOLqG+h0BmT/wnXSOKnw/h1qC/x0stKgHFSg4jl/9rmYLn1b6m90hz78o/jDk8naxprXPvslhAN7y0SfPmcEwx/28s65NPOcrwRLv6XEtX/+5W8L4VVawZKAREY7GS3/GYDP+LsVRyypqsL4byXkJeVABbZeSS2FCTg3/IF+QO1IucTvSCRXXD+WvNAnFTlZVyoxBZwNhBZYsOfvEf++5C6O7Emkgn4Dzi5ECgWmS/rAFjXdAygzgLWSzBog3TOajh5SklbBj/eCtQcvnM3qpBBJM5/I/Czkc6Z09Zos97ubiOOZaNwqgU5BT+0kkJawE4fxw78k3zue9tCnGdxOyxlsv9UPgp5MQbHRPIFnQkYFyFYEXGL6XupIDfe3xZlvGjHMogifH8u+BvgtcvrKz3MuMQFNLzCLDNBFyA61+NeRvqTFdQWiBhEL/M1qiTCv3UI0bn6JfZtrvxlM1Dw7IstgI/FGDWHxMsK3Y/5FtgGUUSESLXXyH8ienEV3gBFa8XbTWIZIWoD/Ca+z0byW6jNF6svIjtcStCZr7sLK5hWZ6OziDFstaMaAKn49voWtYXEd48Bln4VPQd4UiyD7Pt8BBEnPpOtpuXpWN9vcg+ziEWYB3PyYkVHgSrn4D3CJAjc7Ef35gpANXhkbvkCILvdS3ZohnK+BiNE8ftfKebG0F9nOmQwomLp/akeJkE+/09HW+Vu7+Nle4rrefICg4X/DDW504iHSz1ubEkNHXnENQ+/B2+3S40K8PiqRB9Y+/m3ycfFt10KxeC2ZwwimRPs5EGk/STSQWpuevTCZ/VW2xenBSMk/dbrx3+HQ6t1OnU6F6erQ3vvXoP+NYz9/tI5tQ7/jnX7xYljDSz9tpellbH5HgNzLRwhEgbSMKjHU+O6nCyvjc5RBvzSHUcumLYmT5Eh8i+Cx9cCNyDlmqVtPsmgF2oQZQlkM0hat9qTJ//OP1XrAj1vSp/Tg5icC1O9EzFG14/owW0vN6XwshJgsHrXobJ5gRxQWOmj2QZxIkQlBems9762brnBIie6V24pKKKtYW4QTZkVDVIxWGRn1RzQr4xBVAkvKwnOVTCIVJArcdBFIgwWBi6zQUT6lFTzuKPYsHwRovKAdKvidiixho26djQqbYfSsN4QIRJF+OmzgwmAvG8bdYBpNd0wDsp1FioiFYMhuSyzDq0RUUnK3AAtcSF/+TCflOOUKmLoh+eyTJnq6rEAfyFktTHipMzeT36kl9WCTc28GPt9u7kg2ZqQMumqYpDTnu940ECezCNtzTVcSSV7/XCw1f/k8e/PgnXLtftNGEj7kddeFiYbgXtOZZzVIinM44dNAAckZfbe1djZl/X6xeZAti31wCnjWBPl3wShko7KoLd9X4ToZR88D0On7rp33z7fJiUUo89TQC7mS+0NBhHxsmLnsprOtrwe7Gez2eExF/avLqowRml7fb8iXxfrBtx0NH8PWvsWdBw7tPvR/DsHlud1ECcS7wm/fuof6V4fNIf4bdgrCuunk71BRIrWdsLn45yBsO6sv4v7DuFhoIj3E0HaYWbZgUWDQ7JcFpDOQXf7x3DKc08hdXQfh/72N6L6WAQaSIkrBrewc/k3YUm2Y4scQ1BxnJeQ1iAi3WbT5LIGMvRrXXlF/n8ndS3trwz/BxZTLblBhGJ6WVEYAX7GPLsouA/z0zHYJDSIVKxlkctaASzvFutgi/8e/QSWyGmTd5CKwRjd9uOg1wHYL7dLA6D1KfUowjB3AgZReC4rGeZXcmhc/ZpSlVUc/WY9jkGUwMt6DWVgDT61JkIA59mLHr3kUHBxL+uL+Fg0Qlfj93S/+PMYbC48Edgj/8MqBssLc8gelXL3sr4K+o0gp9XcDSKbfD2tl/VFAjgGUUZe1heJcJ5Mq7Qpjof/G7kaChW81swAAAAASUVORK5CYII=" alt="Dow Chemical" class="client-img">
+            <p>Dow (USA)</p>
+          </div>
+          <div class="client-logo">
+            <img src="data:image/png;base64,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" alt="Fauji Fertilizer" class="client-img">
+            <p>Fauji Fertilizer Company Ltd</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="gallery">
+      <div class="container">
+        <h2 class="section-title">Our Work</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=600&q=80" alt="Lush green garden landscape" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=600&q=80" alt="Modern patio design" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=600&q=80" alt="Beautiful flower bed" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=600&q=80" alt="Lush green garden landscape" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" class="form-control" required aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" class="form-control" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary contact-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit">
+      <div class="container">
+        <h2 class="section-title">Visit Us</h2>
+        <div class="visit-container">
+          <div class="map-wrapper">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.3435903308064!2d72.23020435!3d34.64602475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc1c292abdbd8b%3A0x2e1523ff4ad2ea1!2sNajigram%20Barikot%2C%20Pakistan!5e0!3m2!1sen!2s!4v1773778485920!5m2!1sen!2s" 
+              width="100%" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          <div class="address-info">
+            <p><strong>Location:</strong> Najigram, Barikot, Swat, Khyber Pakhtunkhwa, Pakistan</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Shah-Garden. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <img src="" alt="Enlarged gallery image">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
