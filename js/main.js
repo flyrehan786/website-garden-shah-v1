@@ -1,9 +1,9 @@
 const CONFIG = {
-  particleDensity: 120,
-  particleSpeed: 0.4,
-  particleColor: 'rgba(175, 168, 76, 0.7)',
-  lineColor: 'rgba(175, 168, 76, 0.7)',
-  connectionDistance: 220
+  particleDensity: 50,
+  particleSpeed: 1,
+  particleColor: 'rgba(175, 168, 76, 0.5)',
+  lineColor: 'rgba(175, 168, 76, 0.5)',
+  connectionDistance: 200
 };
 
 class Particle {
