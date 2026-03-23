@@ -92,6 +92,7 @@ nav {
   display: flex;
   gap: 0.8rem;
   list-style: none;
+  white-space: nowrap;
 }
 
 .nav-links a {
